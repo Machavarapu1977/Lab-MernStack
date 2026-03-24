@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript objects</title>
+    </head>
+    <body>
+        <h3>JavaScript objects examples</h3>
+        <p id="result"></p>
+        <script>
+            let name=window.prompt("Enter your name: ");
+            let UpperName=name.toUpperCase();
+            let NameLength=name.length;
+            let number=25;
+            let SqrtNumber=Math.sqrt(number);
+            let PowerNumber=Math.pow(5,2);
+            document.getElementById("result").innerHTML=
+            "Name: "+name+"<br>"+
+            "Uppercase "+UpperName+"<br>"+
+            "Length of string: "+NameLength+"<br>"+
+            "Sqrt of Number: "+SqrtNumber+"<br>"+
+            "Power of numbers: "+PowerNumber;
+        </script>
+    </body>
+</html>
